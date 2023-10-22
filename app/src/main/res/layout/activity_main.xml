@@ -36,6 +36,7 @@
         android:layout_height="50dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="115dp"
+        android:onClick="onClickLizardBtn"
         android:text="Ящерица"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -46,6 +47,7 @@
         android:layout_height="50dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="30dp"
+        android:onClick="onClickScissorsBtn"
         android:text="Ножницы"
         app:layout_constraintBottom_toTopOf="@+id/LizardBtn"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -56,6 +58,7 @@
         android:layout_height="50dp"
         android:layout_marginStart="30dp"
         android:layout_marginBottom="115dp"
+        android:onClick="onClickPaperBtn"
         android:text="Бумага"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -66,6 +69,7 @@
         android:layout_height="50dp"
         android:layout_marginStart="30dp"
         android:layout_marginBottom="30dp"
+        android:onClick="onClickRockBtn"
         android:text="Камень"
         app:layout_constraintBottom_toTopOf="@+id/PaperBtn"
         app:layout_constraintStart_toStartOf="parent" />
@@ -75,6 +79,7 @@
         android:layout_width="120dp"
         android:layout_height="50dp"
         android:layout_marginBottom="60dp"
+        android:onClick="onClickSpockBtn"
         android:text="Спок"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
